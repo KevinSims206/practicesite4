@@ -1,0 +1,185 @@
+/* Please insert all your CSS code into this document */
+
+html 
+{
+    background: #dadada;
+    margin: 0;
+    padding: 0;
+}
+#header 
+{
+    width: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	background: white;
+	}
+
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(28, 152, 173);
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 45px;
+}
+
+li:last-child 
+{
+    border-left: none;
+}
+
+.active 
+{
+    background-color: #85ddff;
+}
+
+
+.textWrap img {
+	border: 3px solid rgb(63, 63, 63);
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.textWrap h3 {
+	clear: both;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    color: rgb(9, 127, 156);
+}
+
+.article {
+	background: rgb(122, 190, 236);
+	height: 100px;
+	float:left;
+	width: 550px;
+	padding: 10px;
+}
+.aside {
+	background: rgb(89, 141, 175);
+	height: 100px;
+	padding: 10px;
+	margin-left: 580px;
+}
+
+aside.one {
+	position: fixed;
+	left: 0;
+	width: 160px;
+	padding: 0 .4em;
+	}
+
+div.articles1 {
+	position: fixed;
+	left: 160px;
+	height: 400px;
+	width: 750px;
+	padding: 0 .2em;
+	overflow: scroll;
+	}
+
+    aside.two {
+        float: left;
+        min-width: 130px;
+        }
+    
+    div.articles2 {
+        min-height: 400px;
+        min-width: 350px;
+        padding: 0 30px;
+        overflow: scroll;
+        }
+        
+    .left2 {
+        float: left;
+        margin: 10px 35px 10px 0px;
+        width: 170px;
+        }
+    
+    .right2 {
+        float: right;
+        margin: 10px 0px 10px 35px;
+        width: 170px;
+        }
+    
+        aside.three {
+            float: left;
+            min-width: 130px;
+            }
+        
+        div.articles3 {
+            min-height: 400px;
+            min-width: 350px;
+            padding: 0 1em;
+            overflow: scroll;
+            }
+        
+        .right3 {
+            float: right;
+            margin: 1em 0em 1em 2em;
+            width: 25%;
+            }
+        
+        .left3 {
+            float: left;
+            margin: 1em 2em 1em 0;
+            width: 25%;
+            }
+
+            aside.four {
+                display: inline-block;
+                vertical-align: top;
+                width: 20%;
+                min-width: 130px;
+                }
+            
+            div.articles4 {
+                display: inline-block;
+                vertical-align: top;
+                width: 75%;
+                min-height: 400px;
+                min-width: 350px;
+                }
+            
+            .right4 {
+                float: right;
+                margin: 1em 0em 1em 2em;
+                width: 25%;
+                }
+            
+            .left4 {
+                float: left;
+                margin: 1em 2em 1em 0;
+                width: 25%;
+                }
+
+.photos {
+	margin: 0 auto;
+	width: 822px;
+	padding: 10px;
+	background: rgb(100, 98, 102);
+}
